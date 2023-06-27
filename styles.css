@@ -1,0 +1,25 @@
+#inventory{
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.inventory-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px; 
+    width: 200px;
+}
+
+.inventory-item h3{
+    margin: 0;
+}
+
+.inventory-item p{
+    margin: 5px 0;
+}
+
+input[type="text"],
+button {
+    margin: 5px;
+}
+
