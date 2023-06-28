@@ -13,21 +13,35 @@
 
 <body>
     <header> 
-    <h1>Snacks Inventory App</h1>
+    <h1>Snack Shop Inventory</h1>
 </header>
 
     <div id="inventory">
         <!-- inventory list goes here// -->
     </div>
     <form id="snacksForm">
-        <input type="text" id="snackName" placeholder="SnacK Name">
-        <input type="text" id="snackQuantity" placeholder="Quantity">
-        <button type="submit">We Got You</button>
-    </form>
-
-
-        
-        
-    </div>
+        <fieldset>
+            <legend>Add SnackForm</legend>
+            <div>
+            <label for="snackName">Snack Name</label>
+            <input type="text" id="snackName" placeholder="SnacK Name">
+            </div>
+            <div>
+                <label for="inStock">In stock</label>
+                <input type="text" id="inStock" placeholder="inStock">
+            </div>
+            <div> 
+                <label for="snackQuantity">Snack Quantity</label>   
+                <input type="text" id="snackQuantity" placeholder="Quantity">
+            </div>
+            <div>
+                <label for="price">price</label>
+                <input type="number" id="snackPrice" placeholder="$">
+            </div>
+            <button type="submit">We Got You</button>
+            <button type="button" id="resetButton">Do Over</button>
+        </div>
+        </fieldset>
+    </form> 
 </body>
 </html>
