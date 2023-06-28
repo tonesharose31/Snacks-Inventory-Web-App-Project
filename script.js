@@ -1,4 +1,5 @@
-const resetButton = document.getElementById("snacksForm");
-resetButton.addEventListener("click", ()=> {
-    document.getElementById("resetButton").reset();
-});
+const form =document.querySelector("snackform")
+form.addEventListener("submit", (space)=>{
+    space.preventDefault()
+    
+})

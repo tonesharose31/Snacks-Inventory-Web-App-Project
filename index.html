@@ -14,6 +14,16 @@
 <body>
     <header> 
     <h1>Snack Shop Inventory</h1>
+    <nav> 
+        <ul>
+            <li>
+                <a href="#">All Posts</a>
+            </li>
+            <li>
+                <a href="#">Contact Me</a>"            
+            </li>
+        </ul>
+    </nav>
 </header>
 
     <div id="inventory">
@@ -26,21 +36,22 @@
             <label for="snackName">Snack Name</label>
             <input type="text" id="snackName" placeholder="SnacK Name">
             </div>
-            <div>
-                <label for="inStock">In stock</label>
-                <input type="text" id="inStock" placeholder="inStock">
-            </div>
             <div> 
                 <label for="snackQuantity">Snack Quantity</label>   
                 <input type="text" id="snackQuantity" placeholder="Quantity">
             </div>
             <div>
                 <label for="price">price</label>
-                <input type="number" id="snackPrice" placeholder="$">
+                <input type="text" id="snackPrice" placeholder="$">
+            </div>
+            <div>
+                <label>In Stock</label>
+                <input type="radio" id="instock" value="In Stock"/>
             </div>
             <div>
             <button type="submit">We Got You</button>
-            <button type="button" id="resetButton">Do Over</button>
+            <input type="reset" id="resetButton"value="Do Over"/>
+        
         </div>
         </fieldset>
     </form> 
