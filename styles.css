@@ -1,25 +1,40 @@
-#inventory{
-    display: grid;
-    flex-wrap: wrap;
+html,
+body{
+    color: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
 }
 
-.inventory-item {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px; 
-    width: 200px;
+h1{ font-family: Arial, Helvetica, sans-serif, cursive};
+
+header{
+    background:#dfd9a2;
+    color:rgb(230, 90, 40);
+    padding: 20px;
+    text-align:center;
 }
 
-.inventory-item h3{
-    margin: 0;
+header hi {font-size:42px;
+margin-top:0;
 }
 
-.inventory-item p{
-    margin: 5px 0;
+main a:hover {
+color:darkgoldenrod
 }
 
-input[type="text"],
-button {
-    margin: 5px;
+main img {
+    border: 2px solid chocolate;
+    border: radius 3px;;
+    height:300px;
+    object-fit:cover;
+    object-position: 25%;
+    width: 100%;
 }
-
+footer { 
+background-color: #dfd9a2;
+color: darkgoldenrod;
+font-size: 14px;
+padding: 25px;
+text-align: right;
+ }

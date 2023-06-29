@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset= "UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Inventory App</title>
-<link rel="stylesheet" href="styles.css">
-<script src="script.js" defer></script>
+    <title>Inventory App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-</head>
-
-<body>
-    <header> 
-    <h1>Snack Shop Inventory</h1>
-    
-</header>
-<main>
-    <article>
+  <body>
+    <header>
+      <h1>Snack Shop Inventory</h1>
+    </header>
+    <main>
+      <article>
         <div id="inventory">
-        <img
-        class="crunchy cheetos"
-        src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/11/Small-bag-of-cheetos.jpg?resize=640,468&quality=82&strip=all"
-        alt="Image of cheetos chips package"
-        
-            
-            
-            <!-- inventory list goes here -->
+          <img
+            class="crunchy cheetos"
+            src="img/Small-bag-of-cheetos.webp"
+            alt="Image of cheetos chips packet"
+          />
+          <br />
+          <img
+            class="HoneyBBQ Wise chips"
+            src="img/HoneyBBQ wise chips .webp"
+            alt="Image of HoneyBBQ wise Chips packet "
+          />
+          <br />
+
+          <br />
+          <img class="M&M" src="img/M&M's.webp" alt="Image of M&M packet" />
+          <br />
+
+          <!-- inventory list goes here -->
         </div>
         <form id="snacksForm">
-            <fieldset>
-                <legend>Add SnackForm</legend>
-                <div>
-                    <label for="snackName">Snack Name</label>
-                    <input type="text" id="snackName" placeholder="SnacK Name">
-                </div>
-                <div> 
-                    <label for="snackQuantity">Snack Quantity</label>   
-                    <input type="text" id="snackQuantity" placeholder="Quantity">
-                </div>
-                <div class="total"
-                    <label for="price">price</label>
-                    <input type="number" name="snackPrice" id="$">
-                </div>
-                <div>
-                    <label>In Stock</label>
-                    <input type="radio" id="instock" value="In Stock"/>
-                </div>
-                <div>
-                    <button type="submit">We Got You</button>
-                    <input type="reset" id="resetButton"value="Do Over"/>
-                    
-                </div>
-            </fieldset>
-        </form> 
+          <fieldset>
+            <legend>Add SnackForm</legend>
+            <div>
+              <label for="snackName">Snack Name</label>
+              <input type="text" id="snackName" placeholder="SnacK Name" />
+            </div>
+            <div>
+              <label for="snackQuantity">Snack Quantity</label>
+              <input type="text" id="snackQuantity" placeholder="Quantity" />
+            </div>
+            <div>
+              <label for="price">price</label>
+              <input type="number" name="snackPrice" id="$" />
+            </div>
+            <div>
+              <label>In Stock</label>
+              <input type="radio" id="instock" value="In Stock" />
+            </div>
+            <div>
+              <button type="submit">We Got You</button>
+              <input type="reset" id="resetButton" value="Do Over" />
+            </div>
+          </fieldset>
+        </form>
         <ul>
-            <li>  
-                <a href="contact me">contact me</a>
-            </li>
+          <li>
+            <a href="contact me">contact me</a>
+          </li>
         </ul>
-        </article>
+      </article>
     </main>
-    </body>
+    <footer>© Nesha's SnacK App, LLC.</footer>
+  </body>
 </html>
