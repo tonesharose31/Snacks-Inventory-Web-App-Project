@@ -14,46 +14,52 @@
 <body>
     <header> 
     <h1>Snack Shop Inventory</h1>
-    <nav> 
+    
+</header>
+<main>
+    <article>
+        <div id="inventory">
+        <img
+        class="crunchy cheetos"
+        src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/11/Small-bag-of-cheetos.jpg?resize=640,468&quality=82&strip=all"
+        alt="Image of cheetos chips package"
+        
+            
+            
+            <!-- inventory list goes here -->
+        </div>
+        <form id="snacksForm">
+            <fieldset>
+                <legend>Add SnackForm</legend>
+                <div>
+                    <label for="snackName">Snack Name</label>
+                    <input type="text" id="snackName" placeholder="SnacK Name">
+                </div>
+                <div> 
+                    <label for="snackQuantity">Snack Quantity</label>   
+                    <input type="text" id="snackQuantity" placeholder="Quantity">
+                </div>
+                <div class="total"
+                    <label for="price">price</label>
+                    <input type="number" name="snackPrice" id="$">
+                </div>
+                <div>
+                    <label>In Stock</label>
+                    <input type="radio" id="instock" value="In Stock"/>
+                </div>
+                <div>
+                    <button type="submit">We Got You</button>
+                    <input type="reset" id="resetButton"value="Do Over"/>
+                    
+                </div>
+            </fieldset>
+        </form> 
         <ul>
-            <li>
-                <a href="#">All Posts</a>
-            </li>
-            <li>
-                <a href="#">Contact Me</a>"            
+            <li>  
+                <a href="contact me">contact me</a>
             </li>
         </ul>
-    </nav>
-</header>
-
-    <div id="inventory">
-        <!-- inventory list goes here// -->
-    </div>
-    <form id="snacksForm">
-        <fieldset>
-            <legend>Add SnackForm</legend>
-            <div>
-            <label for="snackName">Snack Name</label>
-            <input type="text" id="snackName" placeholder="SnacK Name">
-            </div>
-            <div> 
-                <label for="snackQuantity">Snack Quantity</label>   
-                <input type="text" id="snackQuantity" placeholder="Quantity">
-            </div>
-            <div>
-                <label for="price">price</label>
-                <input type="text" id="snackPrice" placeholder="$">
-            </div>
-            <div>
-                <label>In Stock</label>
-                <input type="radio" id="instock" value="In Stock"/>
-            </div>
-            <div>
-            <button type="submit">We Got You</button>
-            <input type="reset" id="resetButton"value="Do Over"/>
-        
-        </div>
-        </fieldset>
-    </form> 
-</body>
+        </article>
+    </main>
+    </body>
 </html>
