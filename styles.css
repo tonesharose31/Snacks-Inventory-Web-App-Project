@@ -1,9 +1,13 @@
-#inventory{
-    
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, flex);
+.container{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
 }
+
+
+ #inventory{
+   padding-right: 50px; 
+   text-align: center; 
+} 
 
 html,
 body{
@@ -53,7 +57,7 @@ form textarea {
     display: block;
     margin: 5px 0;
     width:100%;
-    te
+    
 }
 
 
@@ -64,3 +68,14 @@ font-size: 14px;
 padding: 25px;
 text-align: right;
  }
+
+img{
+    width: 250px;
+}
+
+ul{list-style-type: none;
+}
+
+#resetButton{
+    width: 85px;
+}
