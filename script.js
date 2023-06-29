@@ -1,8 +1,8 @@
-const form =document.querySelector("form")
-form.addEventListener("submit", (event)=>{
-  event.preventDefault()
+document.getElementById("snackForm").addEventListener("submit", (event)=>{
+  event.preventDefault();
+  console.log(event.target.elements("snackName"));
+  console.log(event.target.elements("snackQuantity"));
+  console.log(event.target.elements("snackPrice"));
+});
      
-  let list = document.createElement("li")
-  li.textContent=itemText; 
-  Ul.append(li);
-})
+ 

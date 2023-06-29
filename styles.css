@@ -1,3 +1,10 @@
+#inventory{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, flex);
+}
+
 html,
 body{
     color: #2d2d2d;
@@ -15,10 +22,17 @@ header{
     text-align:center;
 }
 
-header hi {font-size:42px;
-margin-top:0;
+header h1 {font-size:42px;
+    background-color: #dfd9a2;
+    background:darkgoldenrod;
+    text-align: center;
+margin-top:auto;
 }
 
+main {margin: 25px auto;
+width: 80%;
+
+}
 main a:hover {
 color:darkgoldenrod
 }
@@ -26,11 +40,23 @@ color:darkgoldenrod
 main img {
     border: 2px solid chocolate;
     border: radius 3px;;
-    height:300px;
+    height: 100px;x;
     object-fit:cover;
     object-position: 25%;
     width: 100%;
 }
+
+form input,
+form label,
+form textarea {
+    box-sizing: border-box;
+    display: block;
+    margin: 5px 0;
+    width:100%;
+    te
+}
+
+
 footer { 
 background-color: #dfd9a2;
 color: darkgoldenrod;
