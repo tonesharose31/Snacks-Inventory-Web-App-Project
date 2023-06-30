@@ -27,6 +27,7 @@
           />
           <h3> name:</h3> <p> cheetos</p>
           <h3> price:</h3> <p> $2.50</p>
+          <button type="remove">Delete</button>
            </li>
           <br />
 
@@ -38,6 +39,7 @@
           />
           <h4> name:</h4> <p> HoneyBBQChips</p>
           <h4> price:</h4> <p> $1.50</p>
+          <button type="remove">Delete</button>
         </li>
         <br />
 
@@ -48,6 +50,7 @@
           />
           <h5> name:</h5> <p> M&M</p>
           <h5> price:</h5> <p> $2.00</p>
+          <button type="remove">Delete</button>
         </li>
         <br />
         </ul>
@@ -59,15 +62,15 @@
             <legend>Add SnackForm</legend>
             
               <label for="snackName">Snack Name
-              <input type="text" id="snackName" placeholder="SnacK Name" />
+              <input type="text" id="snackName" placeholder="SnacK Name" required/>
             </label>
             
               <label for="snackQuantity">Snack Quantity
-              <input type="text" id="snackQuantity" placeholder="Quantity" />
+              <input type="text" id="snackQuantity" placeholder="Quantity" required/>
             </label>
           
               <label for="price">price
-              <input type="number" name="snackPrice" id="price" />
+              <input type="number" name="snackPrice" id="price" required/>
             </label>
 
               <label>image
@@ -79,12 +82,12 @@
             </label>
    
               <button type="submit">We Got You</button>
-              <button type="remove">Delete</button>
+            
               <input type="reset" id="resetButton" value="Do Over" />
-          
-            </fieldset>
+           </fieldset>
           </form>
         </section>
+
         <ul>
           <li>
             <a href="contact me">contact me</a>
