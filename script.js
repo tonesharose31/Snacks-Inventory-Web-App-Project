@@ -14,7 +14,7 @@ let image = form.querySelector("#image").value
 // quantity: ${quantity}
 // <img src= ${image} alt= "image"/>
 // `
-li.innerText = `<h3>Name: </h3> <p> ${name} </p>
+li.innerHTML = `<h3>Name: </h3> <p> ${name} </p>
 <h3>Price:<h3/> <p>${price}<p>
 <h3>quantity:</h3> <p>${quantity}</p>
 <img src = ${image} alt="image" /> `;
