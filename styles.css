@@ -76,6 +76,10 @@ img{
 ul{list-style-type: none;
 }
 
+li{display: list-item;
+
+}
+
 #resetButton{
     width: 85px;
 }
