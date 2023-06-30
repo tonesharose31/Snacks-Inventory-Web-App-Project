@@ -7,7 +7,14 @@
  #inventory{
    padding-right: 50px; 
    text-align: center; 
+
 } 
+
+.snackForm{
+   display: grid;
+grid-template-columns: 2fr 2fr;
+}
+
 
 html,
 body{
@@ -17,11 +24,11 @@ body{
     padding:0;
 }
 
-h1{ font-family: Arial, Helvetica, sans-serif, cursive};
+h1{ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif};
 
 header{
     background:#dfd9a2;
-    color:rgb(230, 90, 40);
+    color:rgb(230, 198, 40);
     padding: 20px;
     text-align:center;
 }
@@ -30,6 +37,7 @@ header h1 {font-size:42px;
     background-color: #dfd9a2;
     background:darkgoldenrod;
     text-align: center;
+
 margin-top:auto;
 }
 
@@ -51,15 +59,14 @@ main img {
 }
 
 form input,
-form label,
+form label
 form textarea {
     box-sizing: border-box;
     display: block;
-    margin: 5px 0;
+    margin: 3px 0;
     width:100%;
     
 }
-
 
 footer { 
 background-color: #dfd9a2;
@@ -76,9 +83,6 @@ img{
 ul{list-style-type: none;
 }
 
-li{display: list-item;
-
-}
 
 #resetButton{
     width: 85px;
