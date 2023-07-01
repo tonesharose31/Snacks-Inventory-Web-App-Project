@@ -3,21 +3,24 @@ let ul= document.querySelector("ul")
 form.addEventListener("submit", (event)=>{
   event.preventDefault();
 
-let li = document.createElement("li")
+let li = document.createElement("li").value;
 let name = form.querySelector("#snackName").value;
 let quantity = form.querySelector("#snackQuantity").value
 let price = form.querySelector("#price").value
 let image = form.querySelector("#image").value
 
 
-li.innerHTML = `<h6>Name: </h6> <p> ${name} </p>
-<h3>Price:<h6/> <p>${price}<p>
-<h3>quantity:</h6> <p>${quantity}</p>
-<img src = ${image} alt="image" /> `;
-ul.append(li)
+li.innerHTML = `<img src = ${image} alt="image" /> 
+<h6>Name: </h3> <p> ${name} </p>
+<h3>Price:<h3/> <p>${price}<p>
+<h3>quantity:</h3> <p>${quantity}</p>`
+ul.append(li) ;
  });
 
-
-
-     
- 
+// const remove = document.getElementById("b")
+// removeButton.textContent= "remove snack";
+//   li.append(remove)
+//  removeButton.addEventListener("click", (e)) => {
+//   removeResource();
+  
+//  })
