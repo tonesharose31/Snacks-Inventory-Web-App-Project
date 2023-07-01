@@ -71,7 +71,7 @@ background-color: #dfd9a2;
 color: darkgoldenrod;
 font-size: 14px;
 padding: 25px;
-text-align: right;
+text-align: left;
  }
 
 img{
@@ -86,3 +86,5 @@ ul{list-style-type: none;
 #resetButton{
     width: 85px;
 }
+
+#
