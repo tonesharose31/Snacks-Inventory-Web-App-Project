@@ -85,6 +85,11 @@ li{
 
 }
 
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
 #resetButton{
  width: 85px;
 }
