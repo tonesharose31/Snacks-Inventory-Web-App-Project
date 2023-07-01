@@ -11,6 +11,10 @@
 
 } 
 
+head-img{
+    width: auto;
+}
+
 
 html,
 body{
@@ -67,8 +71,8 @@ form textarea {
 }
 
 footer { 
-background-color: #dfd9a2;
-color: darkgoldenrod;
+background-color: goldenrod;
+color: rgb(7, 5, 1);
 font-size: 14px;
 padding: 25px;
 text-align: left;
@@ -84,7 +88,10 @@ ul{list-style-type: none;
 
 
 #resetButton{
-    width: 85px;
+ width: 85px;
 }
 
-#
+
+@media (max-width: 499px) {
+    body {display: inline;
+      background-color: bisque ;}}

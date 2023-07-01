@@ -9,11 +9,7 @@ let quantity = form.querySelector("#snackQuantity").value
 let price = form.querySelector("#price").value
 let image = form.querySelector("#image").value
 
-// li.innerHTML =`name:${name}
-// price: ${price}
-// quantity: ${quantity}
-// <img src= ${image} alt= "image"/>
-// `
+
 li.innerHTML = `<h6>Name: </h6> <p> ${name} </p>
 <h3>Price:<h6/> <p>${price}<p>
 <h3>quantity:</h6> <p>${quantity}</p>
