@@ -29,6 +29,11 @@ ul.addEventListener("click", (event) => {
 });
 
 
+const incrementButtons =document.querySelectorAll
+for(let toggleButton of incrementButtons.addEventListener(click, (e)=> {
+
+})
+
 
 //   } else if( event.target.classList.contains("toggleButton"))
 //   {let toggleButton =event.target;
