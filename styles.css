@@ -105,6 +105,11 @@ h3{font-style: italic;
  width: 80px;
 }
 
+img ~ p {
+    background-color: #FEF0B6;
+    padding: 5px;
+  }
+
 
 @media (max-width: 499px) {
     body {display: inline;

@@ -25,16 +25,18 @@ ul.addEventListener("click", (event) => {
   if(event.target.tagName.toLowerCase()=== "button"){
     let li = event.target.closest("li");
     li.remove();
-  } else if( event.target.classList.contains("toggleButton"))
-  {let toggleButton =event.target;
-    toggleStockStatus(toggleButton);
   }
 });
 
-function toggleStockStatus(button){
-  let stockStatus = button.textContent;
-  button.textContent = stockStatus === "In Stock" ? "out of Stock" :"In Stock";
-}
 
 
+//   } else if( event.target.classList.contains("toggleButton"))
+//   {let toggleButton =event.target;
+//     toggleStockStatus(toggleButton);
+//   }
+// });
 
+// function toggleStockStatus(button){
+//   let stockStatus = button.textContent;
+//   button.textContent = stockStatus === "In Stock" ? "out of Stock" :"In Stock";
+// }
