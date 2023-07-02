@@ -12,20 +12,20 @@ let image = form.querySelector("#image").value
 li.innerHTML = `<img src = ${image} alt="image" /> 
 <h3>name: </h3> <p> ${name} </p>
 <h3>price:<h3/> <p>${price}<p>
-<h3>quantity:</h3> <p>${quantity}</p>`
-ul.append(li) ;
+<h3>quantity:</h3> <p>${quantity}</p>
+<button>Delete</button`;
+
+ul.append(li);
+form.reset();
  });
 
-function removeSnack(remove){
-  remove.inventory.remove()
-}
+ul.addEventListener("click", (event) => {
+  if(event.target.tagName.toLowerCase()=== "button"){
+    let li = event.target.closest("li");
+    li.remove();
+  }
+})
 
 
 
-// const remove = document.getElementById("b")
-// removeButton.textContent= "remove snack";
-//   li.append(remove)
-//  removeButton.addEventListener("click", (e)) => {
-//   removeResource();
-  
-//  })
+
