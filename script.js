@@ -12,7 +12,7 @@ let image = form.querySelector("#image").value;
 
 li.innerHTML = `<img src = ${image} alt="image" /> 
 <h3>name: </h3> <p> ${name} </p>
-<h3>price:<h3/> <p>${price}<p>
+<h3>price:<h3/> <p>$${price} <p>
 <h3>quantity:</h3> <p>${quantity}</p>
 <button class ="toggleButton">In Stock</button>
 <button class="removeButton">Delete</button>`;
