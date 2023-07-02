@@ -8,3 +8,5 @@ The user can update the inventory status of what's avaiable to in stock and out 
 The user can add as much item as needed to the Inventory list as desired. 
 
 The user can also add an image for each item being added to the inventory. 
+
+User Must enter all required fields, in order to execute the functions of the app. 
