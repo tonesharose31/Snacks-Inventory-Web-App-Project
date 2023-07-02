@@ -16,8 +16,12 @@ li.innerHTML = `<img src = ${image} alt="image" />
 ul.append(li) ;
  });
 
+function removeSnack(remove){
+  remove.inventory.remove()
+}
 
- 
+
+
 // const remove = document.getElementById("b")
 // removeButton.textContent= "remove snack";
 //   li.append(remove)
